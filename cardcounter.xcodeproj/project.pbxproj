@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9BAB0EF299F0265006A4ADC /* codeacademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAB0EE299F0265006A4ADC /* codeacademyApp.swift */; };
+		D9BAB0EF299F0265006A4ADC /* cardcounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAB0EE299F0265006A4ADC /* cardcounter.swift */; };
 		D9BAB0F1299F0265006A4ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAB0F0299F0265006A4ADC /* ContentView.swift */; };
 		D9BAB0F3299F0266006A4ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BAB0F2299F0266006A4ADC /* Assets.xcassets */; };
 		D9BAB0F6299F0266006A4ADC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BAB0F5299F0266006A4ADC /* Preview Assets.xcassets */; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		D9BAB0EB299F0265006A4ADC /* codeacademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codeacademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9BAB0EE299F0265006A4ADC /* codeacademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codeacademyApp.swift; sourceTree = "<group>"; };
+		D9BAB0EE299F0265006A4ADC /* cardcounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardcounter.swift; sourceTree = "<group>"; };
 		D9BAB0F0299F0265006A4ADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9BAB0F2299F0266006A4ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9BAB0F5299F0266006A4ADC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		D9BAB0E2299F0265006A4ADC = {
 			isa = PBXGroup;
 			children = (
-				D9BAB0ED299F0265006A4ADC /* codeacademy */,
+				D9BAB0ED299F0265006A4ADC /* CardCounter */,
 				D9BAB0FE299F0267006A4ADC /* codeacademyTests */,
 				D9BAB108299F0267006A4ADC /* codeacademyUITests */,
 				D9BAB0EC299F0265006A4ADC /* Products */,
@@ -91,15 +91,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9BAB0ED299F0265006A4ADC /* codeacademy */ = {
+		D9BAB0ED299F0265006A4ADC /* CardCounter */ = {
 			isa = PBXGroup;
 			children = (
-				D9BAB0EE299F0265006A4ADC /* codeacademyApp.swift */,
+				D9BAB0EE299F0265006A4ADC /* cardcounter.swift */,
 				D9BAB0F0299F0265006A4ADC /* ContentView.swift */,
 				D9BAB0F2299F0266006A4ADC /* Assets.xcassets */,
 				D9BAB0F4299F0266006A4ADC /* Preview Content */,
 			);
-			path = codeacademy;
+			path = CardCounter;
 			sourceTree = "<group>";
 		};
 		D9BAB0F4299F0266006A4ADC /* Preview Content */ = {
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BAB0F1299F0265006A4ADC /* ContentView.swift in Sources */,
-				D9BAB0EF299F0265006A4ADC /* codeacademyApp.swift in Sources */,
+				D9BAB0EF299F0265006A4ADC /* cardcounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -417,6 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"codeacademy/Preview Content\"";
+				DEVELOPMENT_TEAM = V67UUCDA54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"codeacademy/Preview Content\"";
+				DEVELOPMENT_TEAM = V67UUCDA54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
